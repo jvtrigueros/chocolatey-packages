@@ -13,7 +13,7 @@
       uses the Soundcloud API.
     </description>
     <projectUrl>http://www.soundnodeapp.com/</projectUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/jvtrigueros/soundnode-app</packageSourceUrl>
     <tags>soundnode-app soundnode soundcloud</tags>
     <copyright/>
     <licenseUrl>https://github.com/Soundnode/soundnode-app/blob/master/LICENSE.md</licenseUrl>
