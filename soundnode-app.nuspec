@@ -16,9 +16,9 @@
     <packageSourceUrl>https://github.com/jvtrigueros/soundnode-app</packageSourceUrl>
     <tags>soundnode-app soundnode soundcloud</tags>
     <copyright/>
-    <licenseUrl>https://github.com/Soundnode/soundnode-app/blob/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/Soundnode/soundnode-app/blob/0.6.4/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/Soundnode/soundnode-app/master/app/soundnode.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Soundnode/soundnode-app/0.6.4/app/soundnode.png</iconUrl>
     <releaseNotes>https://github.com/Soundnode/soundnode-app/releases</releaseNotes>
   </metadata>
   <files>
