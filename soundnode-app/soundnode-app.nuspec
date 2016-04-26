@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>soundnode-app</id>
+    <title>Soundnode App</title>
+    <version>0.6.4</version>
+    <authors>Michael Lancaster</authors>
+    <owners>Jose V. Trigueros</owners>
+    <summary>Soundcloud desktop client</summary>
+    <description>
+      Soundnode App is an Open-Source project to support Soundcloud for desktop
+      Mac, Windows, and Linux. It's built with NW.js, Node.js, Angular.js, and
+      uses the Soundcloud API.
+    </description>
+    <projectUrl>http://www.soundnodeapp.com/</projectUrl>
+    <packageSourceUrl>https://github.com/jvtrigueros/soundnode-app</packageSourceUrl>
+    <tags>soundnode-app soundnode soundcloud</tags>
+    <copyright/>
+    <licenseUrl>https://github.com/Soundnode/soundnode-app/blob/0.6.4/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Soundnode/soundnode-app/0.6.4/app/soundnode.png</iconUrl>
+    <releaseNotes>https://github.com/Soundnode/soundnode-app/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
