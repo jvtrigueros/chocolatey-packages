@@ -28,7 +28,7 @@ New-Item "$target.ignore" -type file -force | Out-Null
 $zipFileList.AppendLine("$target.ignore") | Out-Null
 
 # Get icon from repository
-Get-ChocolateyWebFile -packgeName $packageName -fileFullPath "$toolsDir\soundnode.ico" -url $iconUrl
+Get-ChocolateyWebFile -packageName $packageName -fileFullPath "$toolsDir\soundnode.ico" -url $iconUrl
 $zipFileList.AppendLine("$toolsDir\soundnode.ico") | Out-Null
 
 # Create shortcut in Programs Start Menu
