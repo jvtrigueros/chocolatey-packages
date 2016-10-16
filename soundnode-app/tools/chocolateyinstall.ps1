@@ -6,7 +6,7 @@ $packageName  = 'soundnode-app'
 $shortcutPath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Soundnode App.lnk"
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $target       = Join-Path $toolsDir $exe
-$url          = 'http://www.soundnodeapp.com/downloads/win/Soundnode-App.zip'
+$url          = 'http://www.soundnodeapp.com/downloads/win/Soundnode.zip'
 $zipFileList  =  New-Object System.Text.StringBuilder
 $zipLogPath   = Join-Path $env:ChocolateyPackageFolder "${packageName}Install.zip.txt"
 
@@ -16,7 +16,7 @@ $packageArgs = @{
   url           = $url
 
   registryUninstallerKey = 'soundnode-app'
-  checksum      = '3873B3DD5175421BFA4FFDE0D1779EDD'
+  checksum      = '3b17d7e5c454b711eddc33b802016174'
   checksumType  = 'md5'
 }
 
