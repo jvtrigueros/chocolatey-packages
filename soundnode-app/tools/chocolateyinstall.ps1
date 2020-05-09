@@ -6,7 +6,7 @@ $packageName  = 'soundnode-app'
 $shortcutPath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Soundnode App.lnk"
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $target       = Join-Path $toolsDir $exe
-$url          = 'http://www.soundnodeapp.com/downloads/win/Soundnode.zip'
+$url          = 'https://soundnode.github.io/soundnode-website/src/downloads/win/Soundnode.zip'
 $zipFileList  =  New-Object System.Text.StringBuilder
 $zipLogPath   = Join-Path $env:ChocolateyPackageFolder "${packageName}Install.zip.txt"
 
